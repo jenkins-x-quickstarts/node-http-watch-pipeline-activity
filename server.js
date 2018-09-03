@@ -11,7 +11,7 @@ async function main() {
 		const Client = require('kubernetes-client').Client;
 		const config = require('kubernetes-client').config;
 		const client = new Client({
-			config: config.fromKubeconfig(),
+			config: config.getInCluster(),
 			version: '1.9'
 		});
 
