@@ -1,3 +1,5 @@
-# node 
+# watch pipeline activities using node
 
-Simple Hello World that listens on localhost:8080
+Simple example to show watching the custom resource definition PipelineActivities
+
+In order to see the pipeline 
