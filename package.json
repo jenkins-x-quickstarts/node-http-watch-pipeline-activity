@@ -5,11 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"no test specified\" && exit 0",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "json-stream": "^1.0.0",
     "kubernetes-client": "^6.0.0",
-    "moment": "^2.22.2"
-  }
+    "moment": "^2.22.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
