@@ -10,6 +10,6 @@
   "dependencies": {
     "json-stream": "^1.0.0",
     "kubernetes-client": "^6.0.0",
-    "moment": "^2.22.2"
+    "moment": "^2.29.4"
   }
 }
